@@ -1,6 +1,6 @@
-# Digital Agency Landing Page
+# App Landing Page
 
-A responsive and modern digital agency landing page built using **HTML, CSS, and Bootstrap 5**.  
+A responsive and modern APP landing page built using **HTML, CSS, and Bootstrap 5**.  
 This project showcases a clean UI with multiple sections such as hero, services, testimonials, social media, and footer.
 
 ---
