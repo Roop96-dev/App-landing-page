@@ -44,7 +44,7 @@ body {
 }
 
 .service-icon {
-  width: 80px;
+  width: 90px;
 }
 
 .services-section p {
@@ -62,18 +62,25 @@ body {
   padding: 80px 0;
   background-color: #f8f9fa;
 }
-
+.why-choose-section img {
+  max-width: 90%;
+}
 .blue-title {
   color: #0d6efd;
 }
-
+.col-md-5 h4 {
+  font-size: 200%;
+  margin-left: 50px;
+}
 .why-list {
   margin-top: 20px;
+  margin-left: 30px;
 }
 
 .why-list li {
   margin-bottom: 10px;
   font-size: 15px;
+  margin-left: 30px;
 }
 .testimonial-section {
   padding: 80px 0;
@@ -157,7 +164,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 6px; 
+  border-radius: 6px;
   margin-right: 10px;
 }
 .watch-box {
@@ -197,4 +204,32 @@ body {
 
 .subscribe-btn:hover {
   opacity: 0.9;
+}
+.underline {
+  width: 120px;
+  height: 4px;
+  background: #7b2cbf;
+  margin: 10px auto 0;
+  position: relative;
+  border-radius: 10px;
+}
+
+.underline::after {
+  content: "";
+  width: 35px;
+  height: 6px;
+  background: #7b2cbf;
+  position: absolute;
+  left: 50%;
+  top: -1px;
+  transform: translateX(-50%);
+  border-radius: 10px;
+}
+.service-card {
+  border: none;
+  background: transparent;
+}
+
+.service-card .card-body {
+  padding: 20px;
 }
